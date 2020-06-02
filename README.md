@@ -1,0 +1,2 @@
+# CleanArchitectureEmpty
+CleanArchitecture empty template 
