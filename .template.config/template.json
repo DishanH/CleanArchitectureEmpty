@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Dishan Hewage",
+  "classifications": ["WebAPI", "Solution", "Boilerplate"],
+  "identity": "DishanH.CleanArchitectureEmpty.Solution.CSharp",
+  "name": "Clean Architecture Empty Solution",
+  "shortName": "caempty-sln",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "preferNameDirectory": true,
+  // "symbols": {
+  //   "name": {
+  //     "type": "parameter",
+  //     "dataType": "string",
+  //     "fileRename": "CleanArchitectureEmpty",
+  //     "replaces": "CleanArchitectureEmpty"
+  //   }
+  // },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            "packages/**",
+            ".vs/**",
+            ".vscode/**",
+            "src/.vscode/**",
+            ".git/**",
+            "obj/**",
+            "src/Application/obj/**",
+            "src/Domain/obj/**",
+            "src/Infrastructure/obj/**",
+            "src/WebUI/obj/**",
+            "test/Application.UnitTests/obj/**",
+            "src/Applicaton.IntegrationTests/obj/**",
+            "src/Domain.UnitTests/obj/**",
+            "src/WebUI/Logs/**"
+          ]
+        }
+      ]
+    }
+  ]
+}
