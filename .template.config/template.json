@@ -10,14 +10,14 @@
     "type": "solution"
   },
   "preferNameDirectory": true,
-  // "symbols": {
-  //   "name": {
-  //     "type": "parameter",
-  //     "dataType": "string",
-  //     "fileRename": "CleanArchitectureEmpty",
-  //     "replaces": "CleanArchitectureEmpty"
-  //   }
-  // },
+  "symbols": {
+    "name": {
+      "type": "parameter",
+      "dataType": "string",
+      "fileRename": "CleanArchitectureEmpty",
+      "replaces": "CleanArchitectureEmpty"
+    }
+  },
   "sources": [
     {
       "modifiers": [
